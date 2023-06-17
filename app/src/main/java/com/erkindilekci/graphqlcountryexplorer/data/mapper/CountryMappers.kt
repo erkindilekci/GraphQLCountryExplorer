@@ -1,4 +1,4 @@
-package com.erkindilekci.graphqlcountryexplorer.data
+package com.erkindilekci.graphqlcountryexplorer.data.mapper
 
 import com.erkindilekci.CountriesQuery
 import com.erkindilekci.CountryQuery

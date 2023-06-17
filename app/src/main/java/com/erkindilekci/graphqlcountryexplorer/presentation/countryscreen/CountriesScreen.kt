@@ -1,4 +1,4 @@
-package com.erkindilekci.graphqlcountryexplorer.presentation
+package com.erkindilekci.graphqlcountryexplorer.presentation.countryscreen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -30,7 +30,7 @@ import com.erkindilekci.graphqlcountryexplorer.domain.model.SimpleCountry
 
 @Composable
 fun CountriesScreen(
-    state: CountriesViewModel.CountriesState,
+    state: CountriesState,
     onSelectCountry: (code: String) -> Unit,
     onDismissCountryDialog: () -> Unit
 ) {

@@ -1,8 +1,8 @@
 package com.erkindilekci.graphqlcountryexplorer.di
 
 import com.apollographql.apollo3.ApolloClient
-import com.erkindilekci.graphqlcountryexplorer.data.ApolloCountryClient
-//import com.erkindilekci.graphqlcountryexplorer.data.ApolloCountryClient
+import com.erkindilekci.graphqlcountryexplorer.data.client.ApolloCountryClient
+//import com.erkindilekci.graphqlcountryexplorer.data.client.ApolloCountryClient
 import com.erkindilekci.graphqlcountryexplorer.domain.client.CountryClient
 import com.erkindilekci.graphqlcountryexplorer.domain.use_cases.GetCountriesUseCase
 import com.erkindilekci.graphqlcountryexplorer.domain.use_cases.GetCountryUseCase

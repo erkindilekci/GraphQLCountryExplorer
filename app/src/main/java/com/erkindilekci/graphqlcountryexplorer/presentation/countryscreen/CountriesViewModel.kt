@@ -1,4 +1,4 @@
-package com.erkindilekci.graphqlcountryexplorer.presentation
+package com.erkindilekci.graphqlcountryexplorer.presentation.countryscreen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -55,10 +55,4 @@ class CountriesViewModel @Inject constructor(
             )
         }
     }
-
-    data class CountriesState(
-        val countries: List<SimpleCountry> = emptyList(),
-        val isLoading: Boolean = false,
-        val selectedCountry: DetailedCountry? = null
-    )
 }

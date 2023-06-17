@@ -1,8 +1,10 @@
-package com.erkindilekci.graphqlcountryexplorer.data
+package com.erkindilekci.graphqlcountryexplorer.data.client
 
 import com.apollographql.apollo3.ApolloClient
 import com.erkindilekci.CountriesQuery
 import com.erkindilekci.CountryQuery
+import com.erkindilekci.graphqlcountryexplorer.data.mapper.toDetailedCountry
+import com.erkindilekci.graphqlcountryexplorer.data.mapper.toSimpleCountry
 import com.erkindilekci.graphqlcountryexplorer.domain.client.CountryClient
 import com.erkindilekci.graphqlcountryexplorer.domain.model.DetailedCountry
 import com.erkindilekci.graphqlcountryexplorer.domain.model.SimpleCountry
