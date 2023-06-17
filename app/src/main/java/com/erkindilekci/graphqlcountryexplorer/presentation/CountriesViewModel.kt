@@ -2,10 +2,10 @@ package com.erkindilekci.graphqlcountryexplorer.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.erkindilekci.graphqlcountryexplorer.domain.DetailedCountry
-import com.erkindilekci.graphqlcountryexplorer.domain.GetCountriesUseCase
-import com.erkindilekci.graphqlcountryexplorer.domain.GetCountryUseCase
-import com.erkindilekci.graphqlcountryexplorer.domain.SimpleCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.model.DetailedCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.use_cases.GetCountriesUseCase
+import com.erkindilekci.graphqlcountryexplorer.domain.use_cases.GetCountryUseCase
+import com.erkindilekci.graphqlcountryexplorer.domain.model.SimpleCountry
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

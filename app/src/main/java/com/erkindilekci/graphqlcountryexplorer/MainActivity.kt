@@ -8,7 +8,7 @@ import androidx.compose.runtime.getValue
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.erkindilekci.graphqlcountryexplorer.presentation.CountriesScreen
 import com.erkindilekci.graphqlcountryexplorer.presentation.CountriesViewModel
-import com.erkindilekci.graphqlcountryexplorer.ui.theme.GraphQLCountryExplorerTheme
+import com.erkindilekci.graphqlcountryexplorer.presentation.ui.theme.GraphQLCountryExplorerTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

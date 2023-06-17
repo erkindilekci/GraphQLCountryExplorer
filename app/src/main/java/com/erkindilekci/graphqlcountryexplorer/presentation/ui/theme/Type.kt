@@ -1,4 +1,4 @@
-package com.erkindilekci.graphqlcountryexplorer.ui.theme
+package com.erkindilekci.graphqlcountryexplorer.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

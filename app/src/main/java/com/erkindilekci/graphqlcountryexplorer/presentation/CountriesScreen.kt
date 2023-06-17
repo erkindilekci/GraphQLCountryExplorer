@@ -25,8 +25,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import com.erkindilekci.graphqlcountryexplorer.domain.DetailedCountry
-import com.erkindilekci.graphqlcountryexplorer.domain.SimpleCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.model.DetailedCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.model.SimpleCountry
 
 @Composable
 fun CountriesScreen(

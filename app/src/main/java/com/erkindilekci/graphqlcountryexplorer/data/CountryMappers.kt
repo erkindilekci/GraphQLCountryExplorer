@@ -2,8 +2,8 @@ package com.erkindilekci.graphqlcountryexplorer.data
 
 import com.erkindilekci.CountriesQuery
 import com.erkindilekci.CountryQuery
-import com.erkindilekci.graphqlcountryexplorer.domain.DetailedCountry
-import com.erkindilekci.graphqlcountryexplorer.domain.SimpleCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.model.DetailedCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.model.SimpleCountry
 
 fun CountryQuery.Country.toDetailedCountry(): DetailedCountry {
     return DetailedCountry(

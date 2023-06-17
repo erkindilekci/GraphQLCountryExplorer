@@ -3,9 +3,9 @@ package com.erkindilekci.graphqlcountryexplorer.di
 import com.apollographql.apollo3.ApolloClient
 import com.erkindilekci.graphqlcountryexplorer.data.ApolloCountryClient
 //import com.erkindilekci.graphqlcountryexplorer.data.ApolloCountryClient
-import com.erkindilekci.graphqlcountryexplorer.domain.CountryClient
-import com.erkindilekci.graphqlcountryexplorer.domain.GetCountriesUseCase
-import com.erkindilekci.graphqlcountryexplorer.domain.GetCountryUseCase
+import com.erkindilekci.graphqlcountryexplorer.domain.client.CountryClient
+import com.erkindilekci.graphqlcountryexplorer.domain.use_cases.GetCountriesUseCase
+import com.erkindilekci.graphqlcountryexplorer.domain.use_cases.GetCountryUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -3,9 +3,9 @@ package com.erkindilekci.graphqlcountryexplorer.data
 import com.apollographql.apollo3.ApolloClient
 import com.erkindilekci.CountriesQuery
 import com.erkindilekci.CountryQuery
-import com.erkindilekci.graphqlcountryexplorer.domain.CountryClient
-import com.erkindilekci.graphqlcountryexplorer.domain.DetailedCountry
-import com.erkindilekci.graphqlcountryexplorer.domain.SimpleCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.client.CountryClient
+import com.erkindilekci.graphqlcountryexplorer.domain.model.DetailedCountry
+import com.erkindilekci.graphqlcountryexplorer.domain.model.SimpleCountry
 
 class ApolloCountryClient(
     private val apolloClient: ApolloClient

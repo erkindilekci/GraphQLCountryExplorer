@@ -1,4 +1,4 @@
-package com.erkindilekci.graphqlcountryexplorer.domain
+package com.erkindilekci.graphqlcountryexplorer.domain.model
 
 data class SimpleCountry(
     val code: String,
